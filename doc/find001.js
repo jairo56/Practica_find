@@ -1,0 +1,6 @@
+db.motos.find()
+db.motos.find().pretty()
+db.motos.find({"Marca":"BMW"}).pretty()
+db.motos.find({"Marca":{$eq:"Suzuki"}}).pretty()
+db.motos.find({"Precio":{$gte:"10000"}}).pretty()
+db.motos.find({"Precio":{$lt:"10000"}}).pretty()
